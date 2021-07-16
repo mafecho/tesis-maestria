@@ -1,0 +1,18 @@
+.btn-colour-purple {
+  padding: 0.5rem 2rem;
+  color: #fff;
+  background-color: #5761D7;
+  border-color: #5761D7;
+  font-weight: bold;
+  letter-spacing: 0.05em; 
+}
+
+.btn-colour-purple:hover,
+.btn-colour-purple:active,
+.btn-colour-purple:focus,
+.btn-colour-purple.active {
+  /* let's darken #004E64 a bit for hover effect */
+  background: #3640AD;
+  color: #ffffff;
+  border-color: #3640AD;
+}

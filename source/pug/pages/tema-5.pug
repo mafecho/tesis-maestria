@@ -1,0 +1,98 @@
+.container#page-tema-5
+
+    .header#tema-5.-recuadro.mt-5.mb-0
+        h1 #[span.number.px-2.py-2 5.0] #[span.title.px-2.py-2 Aplicación]
+
+    .jumbotron.bg-white 
+        .row
+            .header#tema-5_1.-recuadro.mt-0.mb-0
+                h2 #[span.number.px-2.py-2 5.1] #[span.title.px-2.py-2 Aplicación del Modelo IDEAL]
+
+        .row.my-5
+            .col-12.col-lg-12
+
+                P El uso del modelo de mejora continua de procesos (IDEAL) permite definir un inicio, una planificación y una implementación de iniciativas de mejora que ayuden a la organización a analizar la problemática actual de sus procesos y a su vez realizar los ajustes pertinentes, de tal manera que el software creado cuente con los niveles deseados de calidad. 
+
+            .col-12.col-lg-12.text-center
+                img(src="assets/images/pages/tema-5/img1.png", alt="").img-fluid 
+
+        .row
+            .header#tema-5_1_1.-recuadro.mt-0.mb-0
+                h2 #[span.number.px-2.py-2 5.1.1] #[span.title.px-2.py-2 Diagrama de Flujo]
+
+        .row.my-5
+            .col-12.col-lg-12
+
+                P Se define el diagrama de flujo para el análisis y ajuste de los procesos, ya que esto permite de forma deliberada y colaborativa, manejar sistemáticamente todos los procesos de una manera más práctica y a su vez que los objetivos y metas de la organización sean seguidas por todas las áreas del equipo.
+
+                P A continuación, se muestra el PDF del diagrama de flujo antes mencionado:
+
+        .row.justify-content-center.align-items-center.mt-5
+            a(href="media/pdfs/diagramaDeFlujo.pdf" target="_blank").media-link
+                img(src="assets/images/icons/icon_pdf.svg", alt="").media-link-icon
+                .media-link-title
+                    p #[strong Anexo]. Diagrama de flujo.  
+
+        .row          
+            .header#tema-4_3.-recuadro.mt-0.mb-0
+                h2 #[span.number.px-2.py-2 5.2] #[span.title.px-2.py-2 Aplicación SQA]
+
+        .row.my-5
+            .col-12.col-lg-12
+
+                P Para la gestion y control de la deuda técnica de los recursos educativos digitales elaborados por el SENA, esta investigación propone realizar el análisis del código por medio de la herramienta SonarQube. Dicha herramienta permite encontrar errores en el código y a su vez identificar malas prácticas al momento de realizar el desarrollo del software, así como poder tener un cálculo de la deuda técnica de estos recursos.
+
+                P SonarQube cuenta con un gran número de métricas de programación que pueden ser aplicadas y ajustadas según el tipo de proyecto. Para los recursos educativos digitales elaborados por el SENA, se realizará la administración y control de la deuda técnica según las siguientes métricas:
+
+                ul
+                    li 
+                        P Detección de código duplicado.
+                    li 
+                        P Falta de pruebas unitarias y de comentarios.
+                    li 
+                        P Código spaghetti, complejidad ciclomática, alto acoplamiento.
+                    li 
+                        P Tamaño de archivos de código.
+                    li 
+                        P Tamaño de métodos.
+                    li 
+                        P No adecuación a estándares de programación definidos y convenciones de código.
+                    li 
+                        P Código muerto.
+
+                P A continuación, se presenta un análisis detallado de las problemáticas encontradas para el uso de cada métrica y el impacto que tendrá cada una de ellas dentro de un recurso educativo digital:
+
+                ul
+                    li
+                        P Detección de código duplicado: la siguiente imagen tomada de la clase main.js del código de la actividad interactiva del programa de formación complementaria Cosecha y Poscosecha (se utilizará como ejemplo para la explicación de cada métrica), muestra la problemática antes mencionada
+
+            .col-12.col-lg-12.text-center
+                img(src="assets/images/pages/tema-5/img2.png", alt="").img-fluid 
+
+            ul
+                li
+                    P Falta de pruebas unitarias y de comentarios: la siguiente imagen tomada de la clase main.js del código de la actividad interactiva del programa ya mencionado como ejemplo (Cosecha y Poscosecha), muestra esta problemática.
+
+            .col-12.col-lg-12.text-center
+                img(src="assets/images/pages/tema-5/img3.png", alt="").img-fluid 
+
+            ul
+                li
+                    P Código spaghetti, complejidad ciclomática: la siguiente imagen tomada de la clase main.js del código de la actividad interactiva del programa ya mencionado, muestra esta problemática.
+
+            .col-12.col-lg-12.text-center
+                img(src="assets/images/pages/tema-5/img4.png", alt="").img-fluid 
+            ul
+                li
+                    P Tamaño de archivos de código: la siguiente imagen tomada de la carpeta librerías perteneciente a la actividad interactiva del programa de formación complementaria tomado como ejemplo, refleja el peso de sus archivos.
+
+            .col-12.col-lg-12.text-center
+                img(src="assets/images/pages/tema-5/img5.png", alt="").img-fluid 
+
+            
+        .row
+            ul
+                li
+                    P No adecuación a estándares de programación definidos y convenciones de código.
+                li
+                    P Código muerto.

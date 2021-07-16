@@ -1,0 +1,14 @@
+[
+    {
+        "icon": "fa fa-sort-alpha-asc",
+        "slug": "glosario",
+        "title": "Referencias",
+        "path": "pages/glosario.html"
+    },   
+    {
+        "icon": "fa fa-download",
+        "slug": "external",
+        "title": "Descargar material",
+        "path": "download/material.zip"
+    }    
+]

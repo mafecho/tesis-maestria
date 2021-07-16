@@ -1,0 +1,80 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+
+    body#page-home.theme-dark.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+            .page-textura
+                .container
+
+                    include includes/page-home_topbar.pug
+
+                    +pageHeader("Tema", "assets/images/header/header_media.svg", "")   
+
+        section#IndiceTematico.curso-indice-tematico.section
+
+            .container
+
+                h2 Desarrollo de <br>contenidos
+                .brand-line-primary
+
+                .row.justify-content-center
+                    .col-12.col-sm-10
+                        .card.wow.flipInX(data-wow-delay=".4s")
+                            
+                            .card-body
+
+                                ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                    +navTemaItem('play', 'Reseña Historica', '#resena')
+                                    +navTemaItem('1', 'Planteamiento del problema', '#tema-1')
+                                    +navTemaItem('2', 'Objetivos', '#tema-2')
+                                    +navTemaItem('3', 'Metodología', '#tema-3')
+                                    +navTemaItem('4', 'Marco Teórico', '#tema-4')
+                                    +navTemaItem('5', 'Aplicación', '#tema-5')
+                                    +navTemaItem('6', 'Validación', '#tema-6')
+                                    +navTemaItem('7', 'Análisis', '#tema-7')
+                                    +navTemaItem('8', 'Conlusiones', '#tema-8')
+                                    +navTemaItem('glosary', 'Referencias', '#glosario')
+
+
+        section#mainContent         
+            #resena
+                include pages/introduccion.pug
+            #tema-1
+                include pages/tema-1.pug
+            #tema-2
+                include pages/tema-2.pug
+            #tema-3
+                include pages/tema-3.pug
+            #tema-4
+                include pages/tema-4.pug
+            #tema-5
+                include pages/tema-5.pug
+            #tema-6
+                include pages/tema-6.pug
+            #tema-7
+                include pages/tema-7.pug
+            #tema-8
+                include pages/tema-8.pug
+            #glosario
+                include pages/glosario.pug
+
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+
+        a.scroll-to-top-btn
+            .fa.fa-angle-up.fa-2x
+
+        script(src="assets/js/vendor.js")
+        script(src="js/local.js")
+
+
+
+
+

@@ -1,0 +1,71 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "resena",
+    "title": "Reseña Histórica",
+    "path": "pages/introduccion.html"     
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1. Planteamiento del problema",
+    "path": "pages/tema-1.html"
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-2",
+    "title": "2. Objetivos",
+    "path": "pages/tema-2.html"
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-3",
+    "title": "3. Metodología",
+    "path": "pages/tema-3.html"
+  },
+  { 
+    "id": 5,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-4",
+    "title": "4. Marco Teórico",
+    "path": "pages/tema-4.html"
+  },
+  { 
+    "id": 6,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-5",
+    "title": "5. Aplicación",
+    "path": "pages/tema-5.html"
+  },
+  { 
+    "id": 7,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-6",
+    "title": "6. Validación",
+    "path": "pages/tema-6.html"
+  },
+  { 
+    "id": 8,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-7",
+    "title": "7. Análisis",
+    "path": "pages/tema-7.html"
+  },
+  { 
+    "id": 9,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-8",
+    "title": "8. Conclusiones",
+    "path": "pages/tema-8.html"
+  }
+]
